@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>happyblobface</title>
+    <style>
+        body {
+            background-color: #3d9352;
+            color: #000000;
+            font-family: Arial, sans-serif;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+            width: 500px;
+            height: auto;
+        }
+        .button1 {
+            font-size: 1.5rem;
+            color: #3d9352;
+            text-transform: uppercase;
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: 2px solid #252525;
+            background: #252525;
+            box-shadow: #000000 3px 3px 5px;
+            cursor: pointer;
+            margin: 35px 0;
+        }
+
+        .button1:active {
+            box-shadow: none;
+            transform: translate(3px, 3px);
+        }
+
+        .button2 {
+            font-size: 1.5rem;
+            color: #3d9352;
+            text-transform: uppercase;
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: 2px solid #252525;
+            background: #252525;
+            box-shadow: #000000 3px 3px 5px;
+            cursor: pointer;
+            margin: 35px 0;
+        }
+
+        .button2:active {
+            box-shadow: none;
+            transform: translate(3px, 3px);
+        }
+
+        .button3 {
+            font-size: 1.5rem;
+            color: #3d9352;
+            text-transform: uppercase;
+            padding: 10px 20px;
+            border-radius: 10px;
+            border: 2px solid #252525;
+            background: #252525;
+            box-shadow: #000000 3px 3px 5px;
+            cursor: pointer;
+            margin: 35px 0;
+        }
+
+        .button3:active {
+            box-shadow: none;
+            transform: translate(3px, 3px);
+        }
+    </style>
+</head>
+<body>
+    <h1>this is a website inhabited by a happyblobface.</h1>
+    <p><b>say hi or else. </b></p>
+    <img src="happyblobface.png" alt="a happy blob face">
+    <button class="button1" onclick="playSound()">say hi</button>
+    <button class="button2" onclick="playSound()">no say hi</button>
+    <br>thank you for visiting. <br>
+    you can now either sit and talk with the happyblobface, click the happyblobface button a bunch, or leave. <br>
+    <button class="button3" onclick="playSound()">
+        <img src="happyblobface.png" alt="blob" style="width: 100px; height: 100px;">
+    </button>
+</body>
+    <audio id="creamy click" src="click.mp3"></audio>
+    <script>
+        function playSound() {
+            document.getElementById('creamy click').play();
+        }
+    </script>
+</html>
